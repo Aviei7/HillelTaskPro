@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HillelTaskPro_4", "HillelTaskPro_4\HillelTaskPro_4.csproj", "{14BB0697-7D12-49D0-80CE-48A16C1A49AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14BB0697-7D12-49D0-80CE-48A16C1A49AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BB0697-7D12-49D0-80CE-48A16C1A49AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BB0697-7D12-49D0-80CE-48A16C1A49AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BB0697-7D12-49D0-80CE-48A16C1A49AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CB08732-401A-47DE-ADB2-BAE13A535755}
+	EndGlobalSection
+EndGlobal
