@@ -1,0 +1,150 @@
+/*ImgBoardSettigs*/
+.moon-image{
+  position: absolute;
+  display: block;
+  width: 7.2vw;
+  height: 7.2vw;
+  top: -2vw;
+  right: -2vw;
+}
+.frog-image{
+  position: absolute;
+  display: block;
+  width: 11vw;
+  height:11vw;
+  top: -4vw;
+  right: -3vw;
+}
+
+.frog-image.seeing-frog{
+  position: absolute;
+  display: block;
+  width: 13vw;
+  height: 13vw;
+  top: -5vw;
+  right: -4vw;
+}
+
+.frog-image.fun-frog{
+  position: absolute;
+  display: block;
+  width: 8.6vw;
+  height: 8.6vw;
+  top: -3vw;
+  right: -2vw;
+}
+
+.frog-image.bye1-frog{
+  position: absolute;
+  display: block;
+  width: 9vw;
+  height: 9vw;
+  top: -4vw;
+  right: -3vw;
+}
+
+.frog-image.bye2-frog{
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  top: -3vw;
+  right: -2vw;
+}
+
+.frog-image.bye3-frog{
+  position: absolute;
+  display: block;
+  width: 8.3vw;
+  height: 8.3vw;
+  top: -3vw;
+  right: -2vw;
+}
+
+/*StarSettings*/
+.sky-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.star-container {
+  position: relative;
+  width: 100%;
+  max-width: 100vw;
+  max-height: 100vw;
+  overflow: hidden;
+}
+
+.button-stars {
+  position: absolute;
+  width: 2.4vw;
+  height: 2.4vw;
+  background-image: url("Background/TwoStar.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  filter: brightness(1.4) drop-shadow(0 0 6px rgba(255, 255, 150, 0.8));
+}
+/*Light*/
+.button-stars:hover {
+  transform: scale(1.1);
+  filter: brightness(1.5) drop-shadow(0 0 5px white);
+}
+
+/*InfoBoardSettings*/
+.info-board {
+  /*Board*/
+  max-width: 120px;
+  max-height: 120px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5); /* полупрозрачный только фон */
+  border-radius: 12px;
+  position: absolute;
+  top: 10%;
+  right: 3%;
+  /*Text*/
+  font-size: 7px;
+  font-family: cursive;
+  color: #ffffffe3;
+  line-height: 1.3;
+
+  /*Other*/
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(20px);
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+
+.info-board.active {
+  opacity: 1;                 
+  visibility: visible;         
+  transform: translateX(0);
+  pointer-events: auto;
+  z-index: 1;
+  }
+
+
+/*MainSettings-Background*/
+.background-card {
+  background-position: 0% 50%; 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(Background/Sky_and_forest.jpg); 
+  }
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+  
+  
+
+

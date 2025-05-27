@@ -1,0 +1,60 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css">
+        <title>Визитка</title>
+        <script>
+            function showInfo(id) {
+              const all = document.querySelectorAll('.info-board');
+              all.forEach(el => el.classList.remove('active'));
+              document.getElementById(id).classList.add('active');
+            }
+          </script>
+    </head>
+    <body>
+        <div class="star-container">
+            <img src="Background/Sky_and_forest_cut.jpg" class="sky-image" />
+
+            <button class="button-stars" id="Star1" style="top: 12%; left: 21%;" onmouseenter="showInfo('info1')"></button>
+            <button class="button-stars" id="Star2" style="top: 12%; left: 29%;" onmouseenter="showInfo('info2')"></button>
+            <button class="button-stars" id="Star3" style="top: 20%; left: 31.2%;" onmouseenter="showInfo('info3')"></button>
+            <button class="button-stars" id="Star4" style="top: 28%; left: 38%;" onmouseenter="showInfo('info4')"></button>
+            <button class="button-stars" id="Star5" style="top: 44%; left: 37.8%;" onmouseenter="showInfo('info5')"></button>
+            <button class="button-stars" id="Star6" style="top: 29%; left: 49%;" onmouseenter="showInfo('info6')"></button>
+            <button class="button-stars" id="Star7" style="top: 46%; left: 47.8%;" onmouseenter="showInfo('info7')"></button>
+        </div>
+        
+
+       <div>
+            <div class="info-board active" id="info1">
+                <img src="Background/Moon_noBack.png" class="moon-image" />
+                <p>Привіт. Мене звати Юрій. Наразі працюю на посаді SQL Developer вже 2 рік та вільний час вивчаю C#.</p>
+            </div>
+            <div class="info-board" id="info2">
+                <img src="Background/Sad_Frog.png" class="frog-image" />
+                <p>Наразі завершив курс C# basic у Hillel School та зараз вивчаю курс C# Pro.</p>
+            </div>
+            <div class="info-board" id="info3">
+                <img src="Background/Seeing_frog.png" class="frog-image seeing-frog" />
+                <p>В майбутньому хочу займатись геймдевом у ролі розробника. Саме геймдев був тим стимулом через який я вирішив вчити C#, бо він використовується у ігровому двигуні Unity, а пізніше він мені просто сподобався.</p>
+            </div>
+            <div class="info-board" id="info4">
+                <img src="Background/fun_frog.png" class="frog-image fun-frog" />
+                <p>Також я дуже полюбляю настільні та комп'ютерні ігри саме звідси і йде бажання створити свою, унікальну гру.</p>
+            </div>
+            <div class="info-board" id="info5">
+                <img src="Background/bye_frog1.png" class="frog-image bye1-frog" />
+                <p>Eror mind: 404. This all thanks!</p>
+            </div>
+            <div class="info-board" id="info6">
+                <img src="Background/bye_frog2.png" class="frog-image bye2-frog" />
+                <p>Eror mind: 404. This all thanks!</p>
+            </div>
+            <div class="info-board" id="info7">
+                <img src="Background/bye_frog3.png" class="frog-image bye3-frog" />
+                <p>Eror mind: 404. This all thanks!</p>
+            </div>
+        <div>
+
+    </body>
+</html>
